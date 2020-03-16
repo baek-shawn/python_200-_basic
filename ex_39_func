@@ -1,0 +1,15 @@
+# 함수의 정의하는 방법 및 호출하는 방
+def add_number(n1,n2):  # n1,n2를 인자로 두 인자 합을 return 하는 함수 add_number생성
+    ret = n1+n2
+    return ret
+
+def add_txt(t1,t2):     # t1,t2를 인자로 두 인자 합을 return 하는 함수 add_txt생성
+    print(t1+t2)
+
+ans=add_number(10,15)
+print(ans)
+text1='대한민국~'
+text2='만세!!'
+add_txt(text1,text2)
+
+# 출처: 장삼용.2017.초보자를 위한 파이썬 200제
